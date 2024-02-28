@@ -1,8 +1,23 @@
+import javax.swing.*;
+
 public class Main {
     public static void main(String[] args) {
         String username = "username";
-        String password = "password";
+        String password = "1234";
 
-        System.out.println("password = " + password);
+        boolean isAuthenticated = false;
+
+        while(!isAuthenticated) {
+
+            String uNameIn = JOptionPane.showInputDialog(null, "Enter your username");
+            String passIn = JOptionPane.showInputDialog(null, "Enter your password");
+
+            if (username.equals(uNameIn) && password.equals(passIn)) {
+                JOptionPane.showMessageDialog(null, "Welcome \"" + uNameIn + "\"");
+                isAuthenticated = true;
+            } else {
+                JOptionPane.showMessageDialog(null, "Password does not match with username.");
+            }
+        }
     }
 }

@@ -15,6 +15,8 @@ public class Main {
             if (username.equals(uNameIn) && password.equals(passIn)) {
                 JOptionPane.showMessageDialog(null, "Welcome \"" + uNameIn + "\"");
                 isAuthenticated = true;
+            } else if (uNameIn == null || passIn == null) {
+                break;
             } else {
                 JOptionPane.showMessageDialog(null, "Password does not match with username.");
             }

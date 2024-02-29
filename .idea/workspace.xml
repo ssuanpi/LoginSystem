@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30951eb0-4d54-4726-8286-7484b1b07016" name="Changes" comment="finished the loop code, next up having options to create account or something like that.">
+    <list default="true" id="30951eb0-4d54-4726-8286-7484b1b07016" name="Changes" comment="added the else if username or password is null the&#10;program breaks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -55,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709145594296</updated>
-      <workItem from="1709145595353" duration="3463000" />
+      <workItem from="1709145595353" duration="4785000" />
     </task>
     <task id="LOCAL-00001" summary="Added the username and password">
       <option name="closed" value="true" />
@@ -81,7 +81,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709147393297</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added the else if username or password is null the&#10;program breaks">
+      <option name="closed" value="true" />
+      <created>1709225826379</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709225826379</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +98,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added the username and password" />
     <MESSAGE value="finished the loop code, next up having options to create account or something like that." />
-    <option name="LAST_COMMIT_MESSAGE" value="finished the loop code, next up having options to create account or something like that." />
+    <MESSAGE value="added the else if username or password is null the&#10;program breaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the else if username or password is null the&#10;program breaks" />
   </component>
 </project>
